@@ -4,16 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85826c19-5dd6-4df9-bd36-93435dcc4ec5" name="Changes" comment="Started S&amp;A Bank Spring Project. Added index.html.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/data/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/data/RoomRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/util/AppStartupEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="85826c19-5dd6-4df9-bd36-93435dcc4ec5" name="Changes" comment="Altered the title of project and the purpose of application, to match values on database. Learned some tricks on postgresql.">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/business/ReservationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/business/RoomReservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/data/Guest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/data/GuestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/data/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/data/ReservationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/util/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/web/GuestListController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/web/RoomReservationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hotel-guests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/roomres.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/util/AppStartupEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/util/AppStartupEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -63,9 +69,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/siegfrito/Workspace/Learning-Spring/src/main/resources&quot;
   }
 }</component>
@@ -110,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652744636979</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Altered the title of project and the purpose of application, to match values on database. Learned some tricks on postgresql.">
+      <created>1652820614113</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652820614113</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Altered the title of project and the purpose of application, to match values on database. Learned some tricks on postgresql.">
+      <created>1652820628252</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652820628252</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +149,17 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Started S&amp;A Bank Spring Project. Added index.html." />
-    <option name="LAST_COMMIT_MESSAGE" value="Started S&amp;A Bank Spring Project. Added index.html." />
+    <MESSAGE value="Altered the title of project and the purpose of application, to match values on database. Learned some tricks on postgresql." />
+    <option name="LAST_COMMIT_MESSAGE" value="Altered the title of project and the purpose of application, to match values on database. Learned some tricks on postgresql." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.UnsatisfiedDependencyException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
