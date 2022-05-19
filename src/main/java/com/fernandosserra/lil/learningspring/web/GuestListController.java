@@ -1,7 +1,6 @@
 package com.fernandosserra.lil.learningspring.web;
 
 import com.fernandosserra.lil.learningspring.business.ReservationService;
-import com.fernandosserra.lil.learningspring.data.Reservation;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

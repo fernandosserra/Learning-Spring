@@ -4,23 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85826c19-5dd6-4df9-bd36-93435dcc4ec5" name="Changes" comment="Altered the title of project and the purpose of application, to match values on database. Learned some tricks on postgresql.">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/business/ReservationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/business/RoomReservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/data/Guest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/data/GuestRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/data/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/data/ReservationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/util/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/web/GuestListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/web/RoomReservationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hotel-guests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/roomres.html" afterDir="false" />
+    <list default="true" id="85826c19-5dd6-4df9-bd36-93435dcc4ec5" name="Changes" comment="Created some methods to find Guests and Reservations, made singular alterations on ReservationService.java, added hotel-guests.html, added roomres.html, added GuestListController.java, added RoomReservationController.java and other auxiliar files.">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/webservice/WebserviceController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/util/AppStartupEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/util/AppStartupEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/business/ReservationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/business/ReservationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/data/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/data/Guest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/web/GuestListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fernandosserra/lil/learningspring/web/GuestListController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652820628252</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created some methods to find Guests and Reservations, made singular alterations on ReservationService.java, added hotel-guests.html, added roomres.html, added GuestListController.java, added RoomReservationController.java and other auxiliar files.">
+      <created>1652913892757</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652913892757</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,7 +147,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Started S&amp;A Bank Spring Project. Added index.html." />
     <MESSAGE value="Altered the title of project and the purpose of application, to match values on database. Learned some tricks on postgresql." />
-    <option name="LAST_COMMIT_MESSAGE" value="Altered the title of project and the purpose of application, to match values on database. Learned some tricks on postgresql." />
+    <MESSAGE value="Created some methods to find Guests and Reservations, made singular alterations on ReservationService.java, added hotel-guests.html, added roomres.html, added GuestListController.java, added RoomReservationController.java and other auxiliar files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created some methods to find Guests and Reservations, made singular alterations on ReservationService.java, added hotel-guests.html, added roomres.html, added GuestListController.java, added RoomReservationController.java and other auxiliar files." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
